@@ -31,9 +31,9 @@ borderRadius:15,
    
    },
 title:{
-    fontSize:20,marginBottom:7,textTransform:"capitalize",fontWeight:"bold"
+    fontSize:16,marginBottom:7,textTransform:"capitalize",fontWeight:"bold"
 },subtitle:{
-    fontSize:18,
+    fontSize:14,
     color:"#A49C9C",textTransform:"capitalize"
 
 }

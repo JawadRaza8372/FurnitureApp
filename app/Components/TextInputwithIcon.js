@@ -1,8 +1,9 @@
 import React ,{useState} from 'react'
 import { Image, View,Text,StyleSheet,TextInput } from 'react-native'
+import { TouchableOpacity } from 'react-native-gesture-handler'
 import AppText from "./AppText"
 import Icon,{IconSimple} from "./Icon"
-function TextInputwithIconSimple({iconName,iconColor,varient,onChangeText,placeholder,...otherProps}) {
+function TextInputwithIconSimple({iconName,iconColor,varient,onChangeText,placeholder,onPress,...otherProps}) {
     return (
        <View style={{flexDirection:"row",marginVertical:5,backgroundColor:`${varient}`,borderRadius:35,borderColor:`${iconColor}`,borderWidth:2,justifyContent:"center",alignItems:"center",padding:15,width:"80%", height:50,alignSelf:"center"}}>
        
@@ -13,7 +14,7 @@ function TextInputwithIconSimple({iconName,iconColor,varient,onChangeText,placeh
       onChangeText={onChangeText}
       placeholder={`${placeholder}`}
       {...otherProps}    />
-      {(iconName &&iconColor) &&(<IconSimple  name={iconName} background={iconColor}/>
+      {(iconName &&iconColor) &&(<TouchableOpacity onPress={onPress}><IconSimple  name={iconName} background={iconColor}/></TouchableOpacity>
 ) }
        </View>
     )

@@ -11,7 +11,7 @@ function CardRenderingScreen({navigation}) {
   const names=punchLines;
     const initmessages = products;
     const [newName, setnewName] = useState(`${names[0].line}`);
-
+    const [valuess, setvaluess] = useState(`${names[0].line}`);
     const shuffle = useCallback(() => {
         const index = Math.floor(Math.random() * names.length);
         setnewName(names[index].line);
@@ -23,7 +23,7 @@ function CardRenderingScreen({navigation}) {
     }, [shuffle])
     return (
  <SafeAreaView style={styles.screen}>
-<TextInputwithIconSimple iconName="ios-search" iconColor="#707070" varient="white" placeholder="Search" />
+<TextInputwithIconSimple iconName="ios-search" iconColor="#707070" varient="white" placeholder="Search" onChangeText={(e)=>{setvaluess(e)}} onPress={()=>{console.log("searched"+valuess)}} />
 <View style={{backgroundColor:"#D93A3A"}}>
             <Text  style={{color:"white",fontSize:24,textAlign:"center",marginVertical:50,marginHorizontal:50}}>{newName}</Text>
 

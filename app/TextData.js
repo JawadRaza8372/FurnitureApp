@@ -4,32 +4,32 @@ const products=[
     {
       id: 1,
       stars:5,
-      title: "Pant",
+      title: "Sectional sofa",
       subtitle:"$260",
-      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7TeUq2oFB4w-1PsnegkVKWalSxSXxTw2NA&usqp=CAU"
+      img:"https://i.pinimg.com/originals/1b/ba/37/1bba3708cb9653ca6b5ee8bcc415ea96.jpg"
     },
     {
       id: 2,
       stars:2,
-      title: "Shirt",
+      title: "Chesterfield sofa",
       subtitle:"$290",
-      img:"https://4.imimg.com/data4/RJ/SX/MY-12607786/combo2-_pack-of-5-assorted-formal-shirts-500x500.jpg"
+      img:"https://ae01.alicdn.com/kf/Hda9a38ab881444a0ae11088c77ac1546H/Luxury-sofa-sets-with-fabric-sofa-design-for-Living-room-furniture-Velvet-Fabric.jpg_Q90.jpg_.webp"
   
     },
     {
       id: 3,
       stars:4,
-      title: "Hoodie",
+      title: "Camelback Sofa",
       subtitle:"$199",
-      img:"https://www.dhresource.com/0x0/f2/albu/g9/M01/0E/A0/rBVaWF35vMaAATX4AAGG5LuBat0895.jpg/19ss-thrasher-mens-designer-hoodies-fashion.jpg"
+      img:"https://cdn.home-designing.com/wp-content/uploads/2017/08/stylish-sofas-600x600.jpg"
   
     },
     {
       id: 4,
       stars:1,
-      title: "Avin",
+      title: "Mid-century modern",
       subtitle:"$199",
-      img:"https://www.dhresource.com/0x0/f2/albu/g9/M01/0E/A0/rBVaWF35vMaAATX4AAGG5LuBat0895.jpg/19ss-thrasher-mens-designer-hoodies-fashion.jpg"
+      img:"https://i.ytimg.com/vi/QgEP_m2FdBM/maxresdefault.jpg"
   
     },
 
@@ -40,10 +40,14 @@ const products=[
 },
 {
   id:2,
-  img:"https://4.imimg.com/data4/RJ/SX/MY-12607786/combo2-_pack-of-5-assorted-formal-shirts-500x500.jpg"
+  img:"https://ae01.alicdn.com/kf/Hda9a38ab881444a0ae11088c77ac1546H/Luxury-sofa-sets-with-fabric-sofa-design-for-Living-room-furniture-Velvet-Fabric.jpg_Q90.jpg_.webp"
 },{
   id:3,
-  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7TeUq2oFB4w-1PsnegkVKWalSxSXxTw2NA&usqp=CAU"
+  img:"https://cdn.home-designing.com/wp-content/uploads/2017/08/stylish-sofas-600x600.jpg"
+
+},{
+  id:4,
+  img:"https://i.ytimg.com/vi/QgEP_m2FdBM/maxresdefault.jpg"
 
 }
 

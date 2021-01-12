@@ -9,7 +9,6 @@ import SubmitButton from '../Components/forms/SubmitButton';
 import AppForm from '../Components/forms/AppForm';
 function LoginScreen({navigation}) {
   const dimension= useDimensions().screen.width;
-console.log(dimension)
     const validationSchema=Yup.object().shape({
 emaill:Yup.string().required().email().label("Email"),
 passwordd:Yup.string().required().min(6).label("Password")

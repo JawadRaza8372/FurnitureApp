@@ -27,7 +27,7 @@ const products=[
     {
       id: 4,
       stars:1,
-      title: "Mid-century modern",
+      title: "Mid-century Sofa",
       subtitle:"$199",
       img:"https://i.ytimg.com/vi/QgEP_m2FdBM/maxresdefault.jpg"
   
@@ -36,7 +36,7 @@ const products=[
   ];
   const imagesLink=[{   
     id:1,
-    img:"https://www.dhresource.com/0x0/f2/albu/g9/M01/0E/A0/rBVaWF35vMaAATX4AAGG5LuBat0895.jpg/19ss-thrasher-mens-designer-hoodies-fashion.jpg"
+    img:"https://i.pinimg.com/originals/1b/ba/37/1bba3708cb9653ca6b5ee8bcc415ea96.jpg"
 },
 {
   id:2,

@@ -1,5 +1,5 @@
-const appName="Umer Furniture";
-const punchLines=[{id:"1",line:"Elegance is our Slogan."},{id:"2",line:"GET THE BEST DEALS BY UMER FURNITURE."},{id:"3",line:"Bring Elegance With Umer Furniture"}]
+const appName="Jawad Furniture";
+const punchLines=[{id:"1",line:"Elegance is our Slogan."},{id:"2",line:"GET THE BEST DEALS BY Jawad FURNITURE."},{id:"3",line:"Bring Elegance With Jawad Furniture"}]
 const products=[
     {
       id: 1,

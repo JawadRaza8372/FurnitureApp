@@ -36,7 +36,7 @@ const products=[
   ];
   const imagesLink=[{   
     id:1,
-    img:"https://i.pinimg.com/originals/1b/ba/37/1bba3708cb9653ca6b5ee8bcc415ea96.jpg"
+    img:"https://i.pinimg.com/originals/1b/ba/37/1bba3708cb9653ca6b5ee8bcc415ea96.jpg"  
 },
 {
   id:2,

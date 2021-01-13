@@ -20,7 +20,7 @@ const Splashscreen = ({navigation}) => {
             navigation.navigate('Welcome');
           }, 5000);
        
-    }, [])
+    }, []) 
     return (
         <View style={{backgroundColor:"#F93D3D",flex:1,justifyContent:"center",alignContent:"center"}}>
                

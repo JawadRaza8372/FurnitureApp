@@ -19,7 +19,7 @@ function CardRenderingScreen({navigation}) {
 
     useEffect(() => {
         const intervalID = setInterval(shuffle, 3000);
-        return () => clearInterval(intervalID);
+        return () => clearInterval(intervalID);     
     }, [shuffle])
     return (
  <SafeAreaView style={styles.screen}>

@@ -8,7 +8,7 @@ import Splashscreen from "./screens/Splashscreen"
 import LoginScreen from "./screens/LoginScreen"
 import RegisterScreen from "./screens/RegisterScreen"
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator();  
 
 function NavigtionTrail() {
     return (

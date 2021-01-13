@@ -7,7 +7,7 @@ import MyButton from "../Components/MyButton"
 function ListingDetailsScreen({navigation,route}) {
   const dimension= useDimensions().screen.width;
   const data=route.params.item;
-const stars=4;
+const stars=4;   
 const c=useRef(null)
   return (
     <SafeAreaView style={styles.contan}>

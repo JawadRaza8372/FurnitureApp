@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4",
+    "web-vitals": "^0.2.4", 
     "@expo/vector-icons": "^10.0.0",
     "@react-native-community/hooks": "^2.6.0",
     "@react-native-community/masked-view": "0.1.10",

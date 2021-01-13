@@ -12,7 +12,7 @@ function LoginScreen({navigation}) {
     const validationSchema=Yup.object().shape({
 emaill:Yup.string().required().email().label("Email"),
 passwordd:Yup.string().required().min(6).label("Password")
-    });
+    });   
     return (
     <SafeAreaView style={styles.contan}>
     <View style={{position:"absolute",top:0,width:'100%',height:260,justifyContent:"center",backgroundColor:"white",borderBottomLeftRadius: ((dimension)/2)+80,borderBottomRightRadius:  ((dimension)/2)+80,      paddingTop:Platform.OS === "android" ? StatusBar.currentHeight+10:0,}}>

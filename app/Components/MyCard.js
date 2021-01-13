@@ -22,7 +22,7 @@ borderRadius:15,
     overflow:"hidden",
     marginHorizontal:20
 }
-,image: {
+,image: {   
     width:150,
     height:130,
      resizeMode: "stretch",

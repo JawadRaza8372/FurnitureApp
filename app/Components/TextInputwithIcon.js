@@ -17,7 +17,7 @@ function TextInputwithIconSimple({iconName,iconColor,varient,onChangeText,placeh
       {(iconName &&iconColor) &&(<TouchableOpacity onPress={onPress}><IconSimple  name={iconName} background={iconColor}/></TouchableOpacity>
 ) }
        </View>
-    )
+    )    
 }
 function TextInputwithIcon({iconName,iconColor,varient,onChangeText,placeholder,...otherProps}) {
     return (
@@ -25,7 +25,7 @@ function TextInputwithIcon({iconName,iconColor,varient,onChangeText,placeholder,
        
        {(iconName &&iconColor) &&(<Icon  name={iconName} background={iconColor}/>) }
 
-<TextInput
+<TextInput    
 
       style={{ height: 50 ,width:"85%",marginLeft:3,marginBottom:5,marginTop:5 }}
       onChangeText={onChangeText}

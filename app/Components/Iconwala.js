@@ -4,7 +4,7 @@ import AppText from "./AppText"
 import Icon from "./Icon"
 function Iconwala(props) {
     return (
-       <View style={{flexDirection:"row",paddingHorizontal:10,paddingVertical:10}}>
+       <View style={{flexDirection:"row",paddingHorizontal:10,paddingVertical:10,alignItems:"center"}}>
        {props.name &&(<Icon  name={props.name} background={props.iconColor}/>
 ) }
 <View style={{paddingVertical:10}}>
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
        
        },
     title:{
-        fontSize:20,marginBottom:7,textTransform:"capitalize"
+        fontSize:18,marginBottom:7,textTransform:"capitalize",marginTop:4
     },subtitle:{
         fontSize:18,
         color:"#808080",textTransform:"capitalize"
